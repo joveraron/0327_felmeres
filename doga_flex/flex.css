@@ -35,3 +35,92 @@ header table td, header table th {
     border: 1px solid black;
     padding: 5px;
 }
+
+.container {
+    display: flex;
+    width: 100%;
+    background-color: hsl(173, 34%, 58%);
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    
+}
+
+.szoveg {
+    width: 20%;
+    height: 22vw;
+    padding: 25px;
+    text-align: justify;
+    border-radius: 15px;
+    box-shadow: 7px 7px 5px #52504d;
+    
+
+}
+
+#cim1 {
+    margin-left: 5vw;
+    
+    
+}
+
+#cim2 {
+    margin-left: 5vw;
+   
+}
+
+#cim3 {
+    margin-left: 3vw;
+    
+}
+
+#cim4 {
+    margin-left: 4vw;
+    
+}
+
+#szoveg1 {
+    background-color: hsl(46, 100%, 50%);
+}
+
+#szoveg2 {
+    background-color: hsl(49, 100%, 50%);
+}
+
+#szoveg3 {
+    background-color: hsl(52, 100%, 50%);
+}
+
+#szoveg4 {
+    background-color: hsl(55, 100%, 50%);
+}
+
+p {
+    border-top: 1px solid black;
+    padding-top: 5px;
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+        column-gap: 15px;
+    }
+
+    .szoveg {
+        width: 90%;
+        margin: auto;
+        height: 12vw;
+        text-align: justify;
+    }
+
+    .cim {
+        font-size: 2.5vw;
+    }
+
+    p {
+        font-size: 1.3vw;
+    }
+    
+}
