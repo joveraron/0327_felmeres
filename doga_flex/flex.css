@@ -110,17 +110,32 @@ p {
 
     .szoveg {
         width: 90%;
+        height: 14vw;
         margin: auto;
-        height: 12vw;
         text-align: justify;
+        padding: 20px;
     }
 
     .cim {
         font-size: 2.5vw;
+        padding-left: 30vw;
     }
 
     p {
-        font-size: 1.3vw;
+        font-size: 1.4vw;
+        padding-top: 5px;
     }
+
+    #szoveg2 {
+        margin-top: 1.7vw;
+    }
+    #szoveg3 {
+        margin-top: 1.7vw;
+    }
+    #szoveg4 {
+        margin-top: 1.7vw;
+    }
+
+    
     
 }
