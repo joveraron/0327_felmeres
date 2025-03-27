@@ -127,6 +127,7 @@ header table td, header table th {
     background-size: 300% 300%;
     background-position: -100% -200%;
     grid-row: 2 / 3;
+    grid-column: 1 / 2;
     
 }
 
